@@ -1,19 +1,15 @@
 import { useState, useMemo } from "react";
-import { useQuery } from "@tanstack/react-query";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BlogCard from "@/components/BlogCard";
 import { Button } from "@/components/ui/button";
-import type { Post } from "@shared/schema";
+import { posts } from "@/data/posts";
 import { format } from "date-fns";
 import { zhTW } from "date-fns/locale";
 
 export default function Blog() {
   const [selectedCategory, setSelectedCategory] = useState("全部");
-
-  const { data: allPosts = [], isLoading } = useQuery<Post[]>({
-    queryKey: ["/api/posts"],
-  });
+  const allPosts = posts;
 
   const categories = useMemo(() => {
     const uniqueCategories = Array.from(new Set(allPosts.map((post) => post.category)));
@@ -56,9 +52,7 @@ export default function Blog() {
               ))}
             </div>
 
-            {isLoading ? (
-              <div className="text-center text-muted-foreground">載入中...</div>
-            ) : filteredPosts.length === 0 ? (
+            {filteredPosts.length === 0 ? (
               <div className="text-center text-muted-foreground">暫無文章</div>
             ) : (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

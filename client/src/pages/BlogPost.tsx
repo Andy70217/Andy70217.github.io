@@ -1,34 +1,17 @@
 import { useRoute } from "wouter";
-import { useQuery } from "@tanstack/react-query";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, Clock, ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
-import type { Post } from "@shared/schema";
+import { posts } from "@/data/posts";
 import { format } from "date-fns";
 import { zhTW } from "date-fns/locale";
 
 export default function BlogPost() {
   const [, params] = useRoute("/blog/:slug");
-
-  const { data: post, isLoading } = useQuery<Post>({
-    queryKey: [`/api/posts/${params?.slug}`],
-    enabled: !!params?.slug,
-  });
-
-  if (isLoading) {
-    return (
-      <div className="min-h-screen flex flex-col">
-        <Header />
-        <main className="flex-1 pt-16 flex items-center justify-center">
-          <div className="text-center text-muted-foreground">載入中...</div>
-        </main>
-        <Footer />
-      </div>
-    );
-  }
+  const post = posts.find((p) => p.slug === params?.slug);
 
   if (!post) {
     return (

@@ -1,16 +1,12 @@
-import { useQuery } from "@tanstack/react-query";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import BlogCard from "@/components/BlogCard";
-import type { Post } from "@shared/schema";
+import { posts } from "@/data/posts";
 import { format } from "date-fns";
 import { zhTW } from "date-fns/locale";
 
 export default function Home() {
-  const { data: posts = [], isLoading } = useQuery<Post[]>({
-    queryKey: ["/api/posts"],
-  });
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -29,25 +25,21 @@ export default function Home() {
               </p>
             </div>
             
-            {isLoading ? (
-              <div className="text-center text-muted-foreground">載入中...</div>
-            ) : (
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {posts.slice(0, 3).map((post) => (
-                  <BlogCard
-                    key={post.id}
-                    id={post.id}
-                    title={post.title}
-                    slug={post.slug}
-                    excerpt={post.excerpt}
-                    category={post.category}
-                    imageUrl={post.imageUrl}
-                    readTime={post.readTime}
-                    publishedAt={format(new Date(post.publishedAt), "yyyy-MM-dd", { locale: zhTW })}
-                  />
-                ))}
-              </div>
-            )}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {posts.slice(0, 3).map((post) => (
+                <BlogCard
+                  key={post.id}
+                  id={post.id}
+                  title={post.title}
+                  slug={post.slug}
+                  excerpt={post.excerpt}
+                  category={post.category}
+                  imageUrl={post.imageUrl}
+                  readTime={post.readTime}
+                  publishedAt={format(new Date(post.publishedAt), "yyyy-MM-dd", { locale: zhTW })}
+                />
+              ))}
+            </div>
           </div>
         </section>
 
