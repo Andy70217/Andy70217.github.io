@@ -8,6 +8,7 @@ import { Link } from "wouter";
 import { posts } from "@/data/posts";
 import { format } from "date-fns";
 import { zhTW } from "date-fns/locale";
+import MarkdownContent from "@/components/MarkdownContent";
 
 export default function BlogPost() {
   const [, params] = useRoute("/blog/:slug");
@@ -76,11 +77,9 @@ export default function BlogPost() {
               </div>
             </div>
 
-            <div 
-              className="prose prose-lg dark:prose-invert max-w-none mb-16"
-              dangerouslySetInnerHTML={{ __html: post.content.replace(/\n/g, '<br/>') }}
-              data-testid="text-content"
-            />
+            <div className="mb-16" data-testid="text-content">
+              <MarkdownContent content={post.content} />
+            </div>
           </div>
         </article>
       </main>

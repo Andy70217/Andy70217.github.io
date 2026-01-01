@@ -1,0 +1,24 @@
+id: "3"
+title: "網路安全的重要性"
+excerpt: "在數位時代，網路安全變得越來越重要。了解基本的網路安全知識，保護個人和企業的資料安全。"
+content: |
+  # 網路安全的重要性
+
+  在數位時代，網路安全變得越來越重要。
+
+  ## 常見威脅
+
+  - 釣魚攻擊
+  - 惡意軟體
+  - 資料外洩
+
+  ## 防護措施
+
+  - 使用強密碼
+  - 定期更新軟體
+  - 啟用雙因素認證
+category: "網路安全"
+imageUrl: "/attached_assets/generated_images/Cybersecurity_blog_post_79100a2a.png"
+readTime: "6 分鐘"
+publishedAt: "2024-11-03T00:00:00Z"
+

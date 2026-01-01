@@ -1,0 +1,7 @@
+videos:
+  - id: "1"
+    title: "範例影片"
+    url: "https://example.com/video1"
+    description: "這是一個範例影片"
+    thumbnail: "/attached_assets/generated_images/AI_technology_blog_post_fc4254ac.png"
+

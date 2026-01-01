@@ -1,0 +1,14 @@
+images:
+  - id: "1"
+    title: "AI 技術文章配圖"
+    url: "/attached_assets/generated_images/AI_technology_blog_post_fc4254ac.png"
+    description: "人工智慧技術相關的配圖"
+  - id: "2"
+    title: "程式設計工作空間"
+    url: "/attached_assets/generated_images/Coding_workspace_blog_post_b1f6bae7.png"
+    description: "程式設計相關的配圖"
+  - id: "3"
+    title: "網路安全文章配圖"
+    url: "/attached_assets/generated_images/Cybersecurity_blog_post_79100a2a.png"
+    description: "網路安全相關的配圖"
+
