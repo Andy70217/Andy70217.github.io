@@ -1,0 +1,22 @@
+id: "2"
+title: "程式設計的最佳實踐"
+excerpt: "良好的程式設計習慣不僅能提高代碼質量，還能讓團隊協作更加順暢。讓我們一起學習一些實用的程式設計最佳實踐。"
+content: |
+  # 程式設計的最佳實踐
+
+  良好的程式設計習慣不僅能提高代碼質量，還能讓團隊協作更加順暢。
+
+  ## 程式碼規範
+
+  - 使用有意義的變數名稱
+  - 保持函數簡潔
+  - 添加適當的註解
+
+  ## 版本控制
+
+  使用 Git 進行版本控制是現代開發的標準做法。
+category: "程式設計"
+imageUrl: "/attached_assets/generated_images/Coding_workspace_blog_post_b1f6bae7.png"
+readTime: "8 分鐘"
+publishedAt: "2024-11-05T00:00:00Z"
+
