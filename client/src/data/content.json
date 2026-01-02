@@ -1,6 +1,50 @@
 {
   "notes": [
     {
+      "id": "7",
+      "title": "相片分享：我的桌面與工具",
+      "excerpt": "分享工作桌面與常用工具的相片，簡短說明與使用心得。",
+      "content": "# 我的桌面與工具\n\n這裡分享幾張工作桌面的相片與工具說明。\n\n- 鍵盤：機械式\n- 顯示器：雙螢幕\n- 常用軟體：VSCode, Git\n",
+      "category": "生活",
+      "imageUrl": "/attached_assets/generated_images/Coding_workspace_blog_post_b1f6bae7.png",
+      "readTime": "2 分鐘",
+      "publishedAt": "2025-01-02T00:00:00Z",
+      "slug": "andy-desk-photos"
+    },
+    {
+      "id": "6",
+      "title": "教學：設定本地開發環境",
+      "excerpt": "一步步建立本地開發環境，包含 Node、依賴安裝與本地伺服器執行。",
+      "content": "# 設定本地開發環境\n\n這篇教學示範如何在本機建立符合專案需求的開發環境。\n\n## 步驟\n\n1. 安裝 Node.js\n2. 安裝依賴 `npm install`\n3. 執行 `npm run dev`\n",
+      "category": "開發",
+      "imageUrl": "/attached_assets/generated_images/Tech_hero_background_cff6b9dc.png",
+      "readTime": "3 分鐘",
+      "publishedAt": "2025-01-02T00:00:00Z",
+      "slug": "andy-dev-setup"
+    },
+    {
+      "id": "4",
+      "title": "Andy 的第一篇筆記",
+      "excerpt": "歡迎來到 Andy 的部落格 — 這是第一篇範例文章，展示如何新增筆記與圖片。",
+      "content": "# Andy 的第一篇筆記\n\n歡迎來到我的部落格！這裡會分享筆記、文章與一些圖片範例。\n\n## 簡短介紹\n\n- 作者：Andy\n- 類別：個人筆記\n- 目的：展示如何在網站中新增內容\n\n## 範例段落\n\n這是一段示範內容，您可以編輯此檔或提供要新增的文章內容，我會幫您加入。\n",
+      "category": "個人筆記",
+      "imageUrl": "/attached_assets/generated_images/AI_technology_blog_post_fc4254ac.png",
+      "readTime": "2 分鐘",
+      "publishedAt": "2025-01-02T00:00:00Z",
+      "slug": "andy-first-post"
+    },
+    {
+      "id": "5",
+      "title": "筆記：如何寫出好 README",
+      "excerpt": "撰寫清晰的 README 能讓專案更易上手，這篇筆記介紹關鍵要點與範例模板。",
+      "content": "# 如何寫出好 README\n\n清楚的 README 能幫助他人快速了解專案目的與使用方式。\n\n## 必要內容\n\n- 專案簡介\n- 安裝與執行方式\n- 範例與常見問題\n\n## 範例模板\n\n參考標準化模板能節省時間並保持一致性。\n",
+      "category": "工具與流程",
+      "imageUrl": "/attached_assets/generated_images/Coding_workspace_blog_post_b1f6bae7.png",
+      "readTime": "4 分鐘",
+      "publishedAt": "2025-01-02T00:00:00Z",
+      "slug": "andy-readme-guide"
+    },
+    {
       "id": "1",
       "title": "探索人工智慧的未來",
       "excerpt": "人工智慧正在改變我們的世界，從自動駕駛到醫療診斷，AI 技術無處不在。本文將深入探討 AI 的發展趨勢和未來展望。",

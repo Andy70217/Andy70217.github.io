@@ -20,9 +20,12 @@ export default function Header() {
           <Link href="/" data-testid="link-home">
             <div className="flex items-center gap-2 hover-elevate active-elevate-2 rounded-md px-3 py-2 -ml-3">
               <div className="w-8 h-8 rounded-md bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">TB</span>
+                <span className="text-primary-foreground font-bold text-sm">A</span>
               </div>
-              <span className="font-bold text-lg tracking-tight">Tech Blog</span>
+              <div className="flex flex-col">
+                <span className="font-bold text-lg tracking-tight">Andy 的部落格</span>
+                <span className="text-sm text-muted-foreground">Andy</span>
+              </div>
             </div>
           </Link>
 

@@ -1,0 +1,16 @@
+id: "7"
+title: "相片分享：我的桌面與工具"
+excerpt: "分享工作桌面與常用工具的相片，簡短說明與使用心得。"
+content: |
+  # 我的桌面與工具
+
+  這裡分享幾張工作桌面的相片與工具說明。
+
+  - 鍵盤：機械式
+  - 顯示器：雙螢幕
+  - 常用軟體：VSCode, Git
+
+category: "生活"
+imageUrl: "/attached_assets/generated_images/Coding_workspace_blog_post_b1f6bae7.png"
+readTime: "2 分鐘"
+publishedAt: "2025-01-02T00:00:00Z"

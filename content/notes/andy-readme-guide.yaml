@@ -1,0 +1,22 @@
+id: "5"
+title: "筆記：如何寫出好 README"
+excerpt: "撰寫清晰的 README 能讓專案更易上手，這篇筆記介紹關鍵要點與範例模板。"
+content: |
+  # 如何寫出好 README
+
+  清楚的 README 能幫助他人快速了解專案目的與使用方式。
+
+  ## 必要內容
+
+  - 專案簡介
+  - 安裝與執行方式
+  - 範例與常見問題
+
+  ## 範例模板
+
+  參考標準化模板能節省時間並保持一致性。
+
+category: "工具與流程"
+imageUrl: "/attached_assets/generated_images/Coding_workspace_blog_post_b1f6bae7.png"
+readTime: "4 分鐘"
+publishedAt: "2025-01-02T00:00:00Z"

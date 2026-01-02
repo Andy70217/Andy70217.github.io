@@ -1,0 +1,22 @@
+id: "4"
+title: "Andy 的第一篇筆記"
+excerpt: "歡迎來到 Andy 的部落格 — 這是第一篇範例文章，展示如何新增筆記與圖片。"
+content: |
+  # Andy 的第一篇筆記
+
+  歡迎來到我的部落格！這裡會分享筆記、文章與一些圖片範例。
+
+  ## 簡短介紹
+
+  - 作者：Andy
+  - 類別：個人筆記
+  - 目的：展示如何在網站中新增內容
+
+  ## 範例段落
+
+  這是一段示範內容，您可以編輯此檔或提供要新增的文章內容，我會幫您加入。
+
+category: "個人筆記"
+imageUrl: "/attached_assets/generated_images/AI_technology_blog_post_fc4254ac.png"
+readTime: "2 分鐘"
+publishedAt: "2025-01-02T00:00:00Z"

@@ -1,0 +1,18 @@
+id: "6"
+title: "教學：設定本地開發環境"
+excerpt: "一步步建立本地開發環境，包含 Node、依賴安裝與本地伺服器執行。"
+content: |
+  # 設定本地開發環境
+
+  這篇教學示範如何在本機建立符合專案需求的開發環境。
+
+  ## 步驟
+
+  1. 安裝 Node.js
+  2. 安裝依賴 `npm install`
+  3. 執行 `npm run dev`
+
+category: "開發"
+imageUrl: "/attached_assets/generated_images/Tech_hero_background_cff6b9dc.png"
+readTime: "3 分鐘"
+publishedAt: "2025-01-02T00:00:00Z"
